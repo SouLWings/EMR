@@ -1,0 +1,1 @@
+<?php $asd = 'asdasd'; echo substr($asd,0,1) ?>

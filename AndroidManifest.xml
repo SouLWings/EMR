@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.emr"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="9" />
+
+    
+	<uses-permission android:name="android.permission.INTERNET">
+	</uses-permission>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Light.NoTitleBar.Workaround" >
+        <activity
+            android:name="com.example.emr.EMR_login_MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.emr.patientList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PATIENTLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.emr.modulepage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MODULEPAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.emr.Acuity_Scale_table"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SCALETABLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.emr.patient_profile"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PATIENTPROFILE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.emr.eyeexam"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EYEEXAM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.emr.IshiharaTest"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ISHIHARA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.emr.appointment"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.appointmment" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.emr.editclinicaldocument"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EDITCLINICALDOCUMENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.emr.editeyeexam"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EDITEYEEXAM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.emr.editorder"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.EDITORDER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!--  clinical document Activity -->
+        <activity android:name=".clinicaldocument" />
+        
+        <!--  order Activity -->
+        <activity android:name=".order" />
+        
+        <!--  lab test Activity -->
+        <activity android:name=".labtest" />
+        
+         <!--  medical history Activity -->
+        <activity android:name=".medicalhistory" />
+        
+    </application>
+    
+</manifest>

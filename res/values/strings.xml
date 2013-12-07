@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EMR</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="RN">"Registration \nno."</string>
+    <string name="ic">IC</string>
+    <string name="bNext">Next</string>
+    <string name="phone">Tel no.</string>
+    <string name="lefteye">Left Eye</string>
+    <string name="righteye">Right Eye</string>
+    <string name="button1">Order</string>
+    <string name="button2">Lab Test</string>
+    <string name="button3">Clinical Document</string>
+    <string name="button4">Medical History</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="login">Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="autocompletetextview">autocomplete</string>
+    <string name="loginlogo">logo of emr</string>
+    <string name="name">Name:</string>
+    <string name="gender">Gender:</string>
+    <string name="age">Age:</string>
+    <string name="address">Address:</string>
+    <string name="patientphoto">Patient photo</string>
+    <string name="note">Note:</string>
+    <string name="bsave">Save</string>
+    <string name="search">Search</string>
+    <string name="dob">D.O.B</string>
+    <string name="upload">Upload</string>
+    <string name="form">Form</string>
+    <string name="bloodpressure">Blood Pressure</string>
+    <string name="height">Height</string>
+    <string name="weigth">Weight</string>
+    <string name="bmi">BMI</string>
+    <string name="temperature">Temperature</string>
+    <string name="chooseadisease">Choose a Disease</string>
+    <string name="bloodtest">Blood test</string>
+    <string name="urinetest">Urine test</string>
+    <string name="xray">X-ray</string>
+    <string name="handtest">Hand test</string>
+    <string name="legtest">leg test</string>
+    <string name="headtest">head test</string>
+    <string name="datechoose">Choose a date</string>
+    <string name="timechoose">Choose a time</string>
+   <!-- <string-array name="diseases_array">
+        Disorders of eyelid, lacrimal system and orbit 
+        <item>Hordeolum</item>
+        <item>Chalazion</item>
+        <item>Blepharitis</item>
+        <item>Entropion</item>
+        <item>Trichiasis</item>
+        <item>Ectropion</item>
+        <item>Lagophthalmos</item>
+        <item>Blepharochalasis</item>
+        <item>Ptosis</item>
+        <item>Xanthelasma of eyelid</item>
+        <item>Dermatitis</item>
+        <item>Leishmaniasis</item>
+        <item>Loiasis</item>
+        <item>Onchocerciasis </item>
+        <item>Phthiriasis</item>
+        <item>Herpesviral (herpes simplex) infection </item>
+        <item>Leprosy</item>
+        <item>Molluscum contagiosum</item>
+        <item>Tuberculosis</item>
+        <item>Yaws</item>
+        <item>Zoster</item>
+        <item>Impetigo</item>
+        <item>Dacryoadenitis</item>
+        <item>Epiphora</item>
+        <item>Dysthyroid exophthalmos</item>
+        Disorders of Conjuctiva 
+        <item>Conjunctivitis</item>
+       Disorders of sclera, cornea, iris and ciliary body
+        <item>Scleritis</item>
+        <item>Keratitis</item>
+        <item>Corneal ulcer / Corneal abrasion</item>
+        <item>Snow blindness / Arc eye</item>
+        <item>Thygeson's superficial punctate keratopathy</item>
+        <item>Corneal neovascularization</item>
+        <item>Fuchs' dystrophy</item>
+        <item>Keratoconus</item>
+        <item>Keratoconjunctivitis sicca</item>
+        <item>Iritis </item>
+        <item>Uveitis</item>
+        Disorders of lens 
+        <item>Cataract</item>
+    Disorders of choroid and retina 
+        <item>Chorioretinal inflammation</item>
+        <item>Chorioretinal inflammation(Chorioretinitis)</item>
+        <item>Chorioretinal inflammation(Choroiditis)</item>
+        <item>Chorioretinal inflammation(Retinitis)</item>
+        <item>Chorioretinal inflammation(Retinochoroiditis)</item>
+        <item>Focal chorioretinal inflammation</item>
+        <item>Focal chorioretinal inflammation(Chorioretinitis)</item>
+        <item>Focal chorioretinal inflammation(Choroiditis)</item>
+        <item>Focal chorioretinal inflammation(Retinitis)</item>
+        <item>Focal chorioretinal inflammation(Retinochoroiditis)</item>
+        <item>Disseminated chorioretinal inflammation</item>
+        <item>Disseminated chorioretinal inflammation(Chorioretinitis)</item>
+        <item>Disseminated chorioretinal inflammation(Choroiditis)</item>
+        <item>Disseminated chorioretinal inflammation(Retinitis)</item>
+        <item>Disseminated chorioretinal inflammation(Retinochoroiditis)</item>
+        <item>exudative retinopathy</item>
+        <item>Posterior cyclitis</item>
+        <item>Pars planitis</item>
+        <item>Harada's disease</item>
+        <item>Chorioretinal scars</item>
+        <item>Chorioretinal scars(Macula scars of posterior pole)</item>
+        <item>Chorioretinal scars(Solar retinopathy)</item>
+        <item>Solar retinopathy</item>
+        <item>Choroidal degeneration</item>
+        <item>Choroidal degeneration(Atrophy)</item>
+        <item>Choroidal degeneration(Sclerosis)</item>
+        <item>Atrophy</item>
+        <item>Sclerosis</item>
+        <item>Angioid streaks</item>
+        <item>Hereditary choroidal dystrophy</item>
+        <item>Hereditary choroidal dystrophy(Choroideremia)</item>
+        <item>Hereditary choroidal dystrophy(Dystrophy)</item>
+        <item>Hereditary choroidal dystrophy(Gyrate atrophy)</item>
+        <item>Choroideremia</item>
+        <item>Gyrate atrophy</item>
+        <item>Dystrophy</item>
+        <item>Ornithinaemia</item>
+        <item>Choroidal haemorrhage</item>
+        <item>Choroidal detachment</item>
+      Chorioretinal disorders in diseases classified elsewhere
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        
+    </string-array> -->
+</resources>
